@@ -1,0 +1,8 @@
+@import './root/index.scss';
+
+.ContactContainer {
+    background-color: $blue;
+    @include mobiles {
+        background-color: $pink;
+    }
+}
